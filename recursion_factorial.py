@@ -7,7 +7,9 @@ def factorial(n):
     else:
         return n * factorial(n - 1)
 
+def main():
+    result = factorial(5)
+    print(result)  # Output: 120
 
-# Call the factorial function and print the result
-result = factorial(5)
-print(result)  # Output: 120
+if __name__ == "__main__":
+    main()
